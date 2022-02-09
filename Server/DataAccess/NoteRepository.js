@@ -5,7 +5,7 @@ const DbConnection = require('./DbConnection');
 
 const collection = 'notes';
 
-const connect = () => new DbConnection('mongodb://127.0.0.1:27017/noteworx');
+const connect = () => new DbConnection('mongodb+srv://bakunawa:qaz1wsx2@cluster0.3ukm2.mongodb.net/noteworx');
 
 const filters = {
     id: (id) => {
